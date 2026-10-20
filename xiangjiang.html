@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="血战湘江历史影像原图与修复上色图对比">
+  <title>血战湘江｜历史影像对比</title>
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+  <style>
+    :root { color-scheme: light; --ink: #28251f; --muted: #6e685f; --paper: #f5f2eb; --accent: #8d382c; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif; }
+    main { width: min(100% - 32px, 1040px); margin: 0 auto; padding: clamp(36px, 8vw, 88px) 0 44px; }
+    .eyebrow { margin: 0 0 14px; color: var(--accent); font-size: 12px; letter-spacing: .18em; }
+    h1 { margin: 0; font-family: "Songti SC", "SimSun", serif; font-weight: 600; font-size: clamp(30px, 6vw, 54px); letter-spacing: .06em; }
+    .intro { margin: 18px 0 30px; color: var(--muted); font-size: 15px; line-height: 1.9; }
+    .frame { overflow: hidden; border: 1px solid #d9d2c5; background: #e8e3d9; box-shadow: 0 18px 55px #51463718; }
+    .juxtapose { width: 100%; }
+    .caption { display: flex; justify-content: space-between; gap: 16px; margin-top: 14px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+    .note { margin-top: 42px; padding-top: 18px; border-top: 1px solid #d9d2c5; color: #80796e; font-size: 12px; line-height: 1.8; }
+    a { color: var(--accent); }
+    @media (max-width: 560px) { main { width: min(100% - 24px, 1040px); } .caption { flex-direction: column; gap: 2px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">HISTORICAL IMAGE · RESTORATION</p>
+    <h1>血战湘江</h1>
+    <p class="intro">拖动中间的滑块，比较血战湘江历史影像原图与修复上色版本。</p>
+    <div class="frame">
+      <div class="juxtapose">
+        <img src="images/xiangjiang-original.png" data-label="历史原图" alt="血战湘江历史影像原图（黑白）">
+        <img src="images/xiangjiang-restored.png" data-label="修复上色图" alt="血战湘江历史影像修复上色版本">
+      </div>
+    </div>
+    <div class="caption"><span>左：黑白原图</span><span>右：修复上色图</span></div>
+    <p class="note">图片说明：修复上色图为历史影像的数字修复版本。请以原始史料为准。<br><a href="./">← 返回遵义会议影像对比</a>　<a href="./">四渡赤水 →</a></p>
+  </main>
+  <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+</body>
+</html>
+
+
+

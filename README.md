@@ -38,3 +38,8 @@ GitHub 官方步骤：[Quickstart for GitHub Pages](https://docs.github.com/en/p
 新增第二个页面：zunyi.html，使用 images/zunyi-original.png（655 × 556）和 images/zunyi-restored.png（652 × 555）。两张上传图片按原样保留，页面可从首页互相切换。发布后地址为仓库 Pages 网址后加 /zunyi.html。
 
 
+## 血战湘江影像对比
+
+新增页面 xiangjiang.html，配对图片为 images/xiangjiang-original.png（900 × 536）和 images/xiangjiang-restored.png（897 × 533）。两张上传图片原样保留。
+
+
