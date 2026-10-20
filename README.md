@@ -33,3 +33,8 @@ GitHub 官方步骤：[Quickstart for GitHub Pages](https://docs.github.com/en/p
 
 已检查配对：黑白原图为 720 × 684，修复上色图为 731 × 696；宽高比例分别约为 1.0526 和 1.0503，差异约 0.22%。河岸、树木和房屋在两张图中的位置对应，可直接用于滑块对比。
 
+## 遵义会议影像对比
+
+新增第二个页面：zunyi.html，使用 images/zunyi-original.png（655 × 556）和 images/zunyi-restored.png（652 × 555）。两张上传图片按原样保留，页面可从首页互相切换。发布后地址为仓库 Pages 网址后加 /zunyi.html。
+
+
