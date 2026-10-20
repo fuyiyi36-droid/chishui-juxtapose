@@ -47,4 +47,7 @@ GitHub 官方步骤：[Quickstart for GitHub Pages](https://docs.github.com/en/p
 
 三个对比页面已改为网页内置的图片滑块，不依赖外部 JuxtaposeJS 脚本或样式，降低手机内置浏览器无法加载组件时出现空白的情况。
 
+## 微信内置浏览器图片显示兼容
+
+三个网页已将对应的两张图片内嵌到 HTML 中，避免微信内置浏览器无法加载相对图片地址。网页文件体积会相应增大。
 
