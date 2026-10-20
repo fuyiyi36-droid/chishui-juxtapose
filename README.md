@@ -43,3 +43,8 @@ GitHub 官方步骤：[Quickstart for GitHub Pages](https://docs.github.com/en/p
 新增页面 xiangjiang.html，配对图片为 images/xiangjiang-original.png（900 × 536）和 images/xiangjiang-restored.png（897 × 533）。两张上传图片原样保留。
 
 
+## 手机显示修复
+
+三个对比页面已改为网页内置的图片滑块，不依赖外部 JuxtaposeJS 脚本或样式，降低手机内置浏览器无法加载组件时出现空白的情况。
+
+
